@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Server Response Time (thời gian phản hồi của máy chủ) là khoảng thời gian cần thiết để hiển thị HTML trên trình duyệt người dùng, từ một yêu cầu gửi đến máy ...">
+  <meta name="keywords" content="mobile app, frontend, and web development">
+  <meta name="author" content="Server Response Time - Làm thế nào để cải thiện? | Nghi's Blog - Xin chào! Đây là blog của Nghị.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f5f5">
+
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Server Response Time - Làm thế nào để cải thiện? | Nghi's Blog - Xin chào! Đây là blog của Nghị.">
+  <meta name="twitter:description" content="Server Response Time (thời gian phản hồi của máy chủ) là khoảng thời gian cần thiết để hiển thị HTML trên trình duyệt người dùng, từ một yêu cầu gửi đến máy ...">
+  <meta name="twitter:image" content="http://localhost:4000/img/nghi-logo.png">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="http://localhost:4000">
+  <meta property="og:title" content="Server Response Time - Làm thế nào để cải thiện? | Nghi's Blog - Xin chào! Đây là blog của Nghị.">
+  <meta property="og:description" content="Server Response Time (thời gian phản hồi của máy chủ) là khoảng thời gian cần thiết để hiển thị HTML trên trình duyệt người dùng, từ một yêu cầu gửi đến máy ...">
+  <meta property="og:image" content="http://localhost:4000/img/nghi-logo.png">
+  <title>Server Response Time - Làm thế nào để cải thiện? | Nghi's Blog - Xin chào! Đây là blog của Nghị.</title>
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+
+  <link rel="canonical" href="http://localhost:4000/server-response-time/">
+  <link rel="alternate" type="application/rss+xml" title="Nghi's Blog - Xin chào! Đây là blog của Nghị." href="http://localhost:4000 /feed.xml " />
+
+  <!-- Icons -->
+  <!-- 16x16 -->
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+  <!-- 32x32 -->
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+</head>
+
+
+<body>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="table cover">
+        
+
+<div class="cover-card table-cell table-middle">
+  
+  <a href="http://localhost:4000/" class="author_name">
+  	<img src="http://localhost:4000/img/nghi-logo.png" alt="Nghi's Blog" class="avatar" width="80" height="80">
+  </a>
+  
+  <a href="http://localhost:4000/" class="author_name">Nghi Nguyen</a>
+  <span class="author_job">Co-founder Nepbean Technology, jotodi</span>
+  <span class="author_bio mbm">Xin chào! Đây là blog của Nghị.<br/>Nghị đang là một Team Leader "culi",  sống và làm việc tại TP. Hồ Chí Minh ...<br/><a href="/resume/" title="Resume">xem chi tiết</a></span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="http://localhost:4000/archive/">Archive</a>
+        
+          <span>&compfn;</span>
+        
+      </li>
+          
+      <li class="nav-item">
+        <a href="http://localhost:4000/topic/">Topics</a>
+        
+          <span>&compfn;</span>
+        
+      </li>
+            
+      <li class="nav-item">
+        <a href="http://localhost:4000/resume/">Resume</a>
+        
+          <span>&compfn;</span>
+        
+      </li>
+        
+      <li class="nav-item">
+        <a href="http://localhost:4000/tags/">Tags</a>
+        
+      </li>
+       
+    </ul>
+  </nav>
+  <script type="text/javascript">
+  // based on http://stackoverflow.com/a/10300743/280842
+  function gen_mail_to_link(hs, subject) {
+    var lhs,rhs;
+    var p = hs.split('@');
+    lhs = p[0];
+    rhs = p[1];
+    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
+    document.write(":" + lhs + "@");
+    document.write(rhs + "?subject=" + subject + "\"><span class=\"fa fa-fw fa-envelope\"></span><span class=\"sr-only\">nghi.dcg@gmail.com</span><\/a>");
+  }
+</script>
+<div class="social-links">
+  <ul>
+    
+      <li>
+      <script>gen_mail_to_link('nghi.dcg@gmail.com', 'Hello from website');</script>
+      </li>
+    
+    <li><a href="http://twitter.com/nghixn" class="social-link-item" target="_blank"><span class="fa fa-fw fa-twitter"></span><span class="sr-only">nghixn</span></a></li>
+    <li><a href="http://facebook.com/nghixn" class="social-link-item" target="_blank"><span class="fa fa-fw fa-facebook"></span><span class="sr-only">nghixn</span></a></li>
+    
+    <li><a href="http://linkedin.com/in/nghinx" class="social-link-item" target="_blank"><span class="fa fa-fw fa-linkedin"></span><span class="sr-only">nghinx</span></a></li>
+    
+    
+    
+    <li><a href="http://github.com/nghixn" class="social-link-item" target="_blank"><span class="fa fa-fw fa-github"></span><span class="sr-only">nghixn</span></a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</div>
+
+</div>
+
+      </div>
+    </div>
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <a class="btn" href= "http://localhost:4000/" >
+  &lbarr; Back
+</a>
+
+
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="Server Response Time - Làm thế nào để cải thiện?">Server Response Time - Làm thế nào để cải thiện?</h1>
+    <span class="post-meta">
+      <span class="post-date">
+        10 JAN 2018
+      </span>
+      •
+      <span class="read-time" title="Estimated read time">
+  
+  
+    5 mins read
+  
+</span>
+
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>Server Response Time (thời gian phản hồi của máy chủ) là khoảng thời gian cần thiết để hiển thị HTML trên trình duyệt người dùng, từ một yêu cầu gửi đến máy chủ. Đây là một yếu tố quan trọng ảnh hưởng đến tốc độ trang web, chất lượng SEO và trải nghiệm người dùng.</p>
+
+<p>Một trang web SEO tốt luôn được xếp hạng cao hơn trong kết quả của các công cụ tìm kiếm.</p>
+
+<p>Trang web của bạn xuất hiện càng nhiều trong kết quả tìm kiếm, càng có nhiều lưu lượng truy cập.</p>
+
+<p>Server Response Time là một trong nhiều yếu tố ảnh hưởng đến SEO trên trang web của bạn.</p>
+
+<p>Vậy thì:</p>
+<h2>Làm thế nào giảm Server Response Time?</h2>
+<p> </p>
+
+<p>Theo công cụ Google Page Speed, thì thời gian phản hồi của máy chủ lý tưởng là dưới 200ms (0.2s).</p>
+
+<p>Bạn có thể tự kiểm tra máy chủ mình đang sử dụng bằng công cụ <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener">Google Page Speed Insight</a>.</p>
+
+<p>Ngoài ra, có các công cụ phổ biến khác như: <a href="https://tools.pingdom.com/" target="_blank" rel="noopener">Pingdom</a>, <a href="https://www.webpagetest.org/" target="_blank" rel="noopener">WebPagetest</a> hay <a href="https://gtmetrix.com/" target="_blank" rel="noopener">GTmetrix</a>.</p>
+
+<p>Nếu thời gian phản hồi của máy chủ đang chậm, hãy cùng tìm ra những yếu tố đang tác động để từ đó có hướng khắc phục.</p>
+<h3>1. Dịch vụ Hosting</h3>
+<p>Dịch vụ hosting là yếu tố chính đầu tiên ảnh hưởng đến Server Response Time.</p>
+
+<p>Ngày nay với rất nhiều nhà cung cấp uy tín và giá thành hợp lý, người dùng có nhiều cơ hội hơn để lựa chọn cho mình một hosting chất lượng.</p>
+
+<p>Một hosting chất lượng đồng nghĩa với các thông số rõ ràng và sự mạnh mẽ của CPU, RAM, tốc độ truy xuất, khả năng bảo mật, …</p>
+
+<p>Cá nhân tôi đang sử dụng một gói Shared Hosting để lưu trữ các website giới thiệu công ty, không đòi hỏi về lưu lượng truy cập và một VPS phục vụ cho mục đích <a href="https://nioempire.com/topic/blogging/">viết blog</a>.</p>
+
+<p>Bạn biết đấy, không vơ đũa cả nắm nhưng thực sự chất lượng Shared Hosting ở Việt Nam quá tệ, lỡ mua rồi thì sống chung với lũ thôi.</p>
+
+<p>Trừ khi bạn có nhiều tiền để đầu tư những gói Shared Hosting khủng. Thôi, thà chuyển qua sử dụng VPS.</p>
+
+<p>Xin được liệt kê danh sách một số nhà cung cấp dịch vụ hosting tốt nhất, bạn có thể tham khảo:</p>
+<ul>
+ 	<li><a href="https://www.bluehost.com/" target="_blank" rel="noopener">BlueHost</a> (Được khuyên dùng cho các website, blog sử dụng WordPress).</li>
+ 	<li><a href="https://www.stablehost.com/" target="_blank" rel="noopener">StableHost</a> (Đang có chương trình giảm giá 50% trọn đời, thời điểm này vẫn còn tham gia được).</li>
+ 	<li><a href="https://www.siteground.com/" target="_blank" rel="noopener">SiteGround</a></li>
+ 	<li><a href="http://www.hostgator.com/" target="_blank" rel="noopener">HostGator</a></li>
+</ul>
+<h3>2. Cơ sở dữ liệu (Database)</h3>
+<p>Hầu hết các website hiện nay đều có sử dụng cơ sở dữ liệu.</p>
+
+<p>Nếu không, đó gọi là những static website. Phổ biến hiện nay là các <a href="https://www.staticgen.com/" target="_blank" rel="noopener">static site generator</a> như Jekyll hay Hugo.</p>
+
+<p>Khi thực hiện các truy vấn cơ sở dữ liệu chậm và phức tạp sẽ làm tăng thời gian phản hồi của máy chủ.</p>
+
+<p>Vì vậy, thời gian phản hồi của máy chủ bị giảm rất nhiều tùy thuộc vào việc tối ưu hóa cơ sở dữ liệu và tốc độ truy vấn của bạn là bao nhiêu.</p>
+<h4>Làm cách nào để tối ưu hóa cơ sở dữ liệu và tốc độ truy vấn?</h4>
+<p>Bài viết này sẽ không đi sâu vào chi tiết về cách tối ưu hóa cơ sở dữ liệu.</p>
+
+<p>Tuy nhiên, có bốn cách chính để tối ưu hóa hiệu suất truy vấn của bạn như sau:</p>
+<ul>
+ 	<li><strong>Viết lại các truy vấn</strong>: Kiểm tra xem bạn đang chạy bao nhiêu truy vấn. Các truy vấn của bạn chỉ nên trả về những gì cần thiết.</li>
+ 	<li><strong>Lập chỉ mục thích hợp</strong>: Việc lập chỉ mục thích hợp sẽ giúp bạn truy vấn nhanh hơn.</li>
+ 	<li><strong>Thay đổi schema</strong>: Schema được biết đến với vai trò nhóm các đối tượng giúp quản lý hiệu quả và phân quyền để tăng cường bảo mật cho cơ sở dữ liệu.</li>
+ 	<li><strong>Sử dụng cache</strong>: Bạn nên xem xét di chuyển một số lượng tải ra front-end để giảm tải cho back-end.</li>
+</ul>
+<h3>3. Hình ảnh chưa được tối ưu</h3>
+<p>Sử dụng hình ảnh giúp website trông bắt mắt, thu hút hơn nhưng đó thực sự là một gánh nặng đối với máy chủ.</p>
+
+<p>Dung lượng các file ảnh càng lớn thì server tải càng lâu hơn, đó là điều dĩ nhiên.</p>
+
+<p>Giải pháp là bạn phải nén hình ảnh trước khi upload lên website.</p>
+
+<p>Có rất nhiều công cụ giúp giảm dung lượng nhưng không ảnh hưởng quá nhiều tới chất lượng ảnh.</p>
+
+<p>Công cụ tôi thường sử dụng nhất đó là <a href="https://tinypng.com/" target="_blank" rel="noopener">TinyPNG</a> nền tảng web hoặc ImageOptim trên macOS.</p>
+<h3>4. Các tài nguyên và số lượng request giữa Client và Server</h3>
+<p>Số lượng của các requests tương ứng với những lần giao tiếp giữa client và server.</p>
+
+<p>Các trang web thường chứa các tập tin HTML, CSS và JavaScript. Nếu số lượng này càng nhiều thì Server Response Time càng tăng theo cấp số nhân.</p>
+
+<p>Do đó, bạn nên tối ưu các tài nguyên, giảm thiểu các requests giúp giảm thời gian phản hồi của máy chủ.</p>
+
+<p>Bằng cách:</p>
+<ul>
+ 	<li>Gom các file CSS, JS lại thành một file tương ứng.</li>
+ 	<li>Nén các file HTML, CSS, JS với các công cụ online bạn có thể tìm thấy rất nhiều trên internet.</li>
+</ul>
+<p>Nếu đang sử dụng WordPress, bạn có thể cấu hình <strong>Minify</strong> trong các plugin tuyệt vời như: W3 Total Cache, WP Fastest Cache hay WP Super Cache, …</p>
+<h2>5. Phần mềm máy chủ.</h2>
+<p>Cũng góp phần quan trọng không kém đó là phần mềm trên máy chủ.</p>
+
+<p>Hiện nay có hai phần mềm máy chủ web được sử dụng phổ biến nhất đó là <a href="https://www.apache.org/" target="_blank" rel="noopener">Apache</a> và <a href="https://www.nginx.com/" target="_blank" rel="noopener">Nginx</a>.</p>
+
+<p>Theo mình biết và nhiều người đánh giá, thì Nginx có tốc độ và hiệu suất cao hơn Apache rất nhiều.</p>
+<h2>Lời kết</h2>
+<p>Mặc dù thời gian phản hồi của máy chủ chỉ chiếm khoảng 10% tổng thời gian trễ trong việc hiển thị trang web cho người dùng, nhưng bạn nên xem xét và có hướng xử lý để giảm thời gian cần thiết cho máy chủ, với những yếu tố được liệt kê trên.</p>
+
+  </article>
+</div>
+
+<div class="share-buttons">
+  <h6>Chia sẻ bài viết: </h6>
+  <ul>
+  	<li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/server-response-time/" class="facebook btn" title="Share on Facebook"><span class="fa fa-facebook"></span><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/server-response-time/" class="twitter btn" title="Share on Twitter"><span class="fa fa-twitter"></span><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=http://localhost:4000/server-response-time/" class="google-plus btn" title="Share on Google Plus"><span class="fa fa-google-plus"></span><span> Google+</span></a>
+    </li>
+  </ul>
+</div><!-- end share-buttons -->
+
+
+
+        <footer> &copy; 2018 Nghi Nguyen. Hosted by <a
+href="https://www.netlify.com/">Netlify</a>, made with <span
+class="fa fa-heart heart-icon"></span></footer>
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/main.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-111732221-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+</body>
+</html>
