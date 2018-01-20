@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="106px" viewBox="0 0 106 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="logo" transform="translate(2.000000, -23.000000)">
+                <g id="n.">
+                    <circle id="Oval" fill="#20BF55" cx="43" cy="76" r="43"></circle>
+                    <text font-family="Avenir-Medium, Avenir" font-size="100" font-weight="400" letter-spacing="1.88">
+                        <tspan x="24.36" y="100" fill="#FFFFFF">n</tspan>
+                        <tspan x="81.84" y="100" fill="#20BF55">.</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
