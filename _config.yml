@@ -66,3 +66,5 @@ owner:
   flickr: #username
   codepen: #username
   telegram: #username
+
+include: ['_redirects']
