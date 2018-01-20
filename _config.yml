@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Nghi Nguyen
+title: Nghi's Blog - Xin chào! Đây là blog của Nghị.
 email: nghi.dcg@gmail.com
 description: Xin chào! Đây là blog của Nghị. Blog cá nhân chia sẻ kiến thức, trải nghiệm và chuyện nghề nghiệp lĩnh vực công nghệ.
 url: https://nghi.blog # the base hostname & protocol for your site
@@ -36,7 +36,7 @@ owner:
   name: Nghi Nguyen
   avatar: nghi-logo.png
   job: "Co-founder Nepbean Technology, jotodi"
-  bio: "Xin chào! Đây là blog của Nghị.<br/>Nghị đang là một Team Leader \"culi\",  sống và làm việc tại TP. Hồ Chí Minh ...<br/><a href=\"/resume/\" title=\"Resume\">XEM CHI TIẾT</a>"
+  bio: "Xin chào! Đây là blog của Nghị.<br/>Nghị đang là một Team Leader \"culi\",  sống và làm việc tại TP. Hồ Chí Minh ...<br/><a href=\"/resume/\" title=\"Resume\">xem chi tiết</a>"
   email: nghi.dcg@gmail.com
   disqus-shortname: nghixn
   twitter: nghixn #username
