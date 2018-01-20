@@ -3,10 +3,10 @@
   <channel>
     <title>Nghi's Blog - Xin chào! Đây là blog của Nghị.</title>
     <description>Xin chào! Đây là blog của Nghị. Blog cá nhân chia sẻ kiến thức, trải nghiệm và chuyện nghề nghiệp lĩnh vực công nghệ.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Jan 2018 23:38:00 +0700</pubDate>
-    <lastBuildDate>Sat, 20 Jan 2018 23:38:00 +0700</lastBuildDate>
+    <link>https://nghi.blog/</link>
+    <atom:link href="https://nghi.blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 20 Jan 2018 23:44:59 +0700</pubDate>
+    <lastBuildDate>Sat, 20 Jan 2018 23:44:59 +0700</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
@@ -57,8 +57,8 @@
 &lt;p&gt;Bạn có thể &lt;a href=&quot;https://nioempire.com/about/&quot;&gt;liên hệ&lt;/a&gt; với tôi để cùng chia sẻ kinh nghiệm!&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Jan 2018 20:16:09 +0700</pubDate>
-        <link>http://localhost:4000/pagespeed-insights/</link>
-        <guid isPermaLink="true">http://localhost:4000/pagespeed-insights/</guid>
+        <link>https://nghi.blog/pagespeed-insights/</link>
+        <guid isPermaLink="true">https://nghi.blog/pagespeed-insights/</guid>
         
         <topic>page speed</topic>
         
@@ -109,8 +109,8 @@
 &lt;p&gt;Bạn có thể tự trải nghiệm thêm nhiều plugins khác để có lựa chọn phù hợp nhất cho website của mình.&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 04:10:15 +0700</pubDate>
-        <link>http://localhost:4000/top-5-plugins-wordpress/</link>
-        <guid isPermaLink="true">http://localhost:4000/top-5-plugins-wordpress/</guid>
+        <link>https://nghi.blog/top-5-plugins-wordpress/</link>
+        <guid isPermaLink="true">https://nghi.blog/top-5-plugins-wordpress/</guid>
         
         <topic>plugin wordpress</topic>
         
@@ -187,8 +187,8 @@
 &lt;p&gt;Ngay từ bây giờ bạn hãy chú trong tới việc bảo mật WordPress site của mình để phòng tránh các cuộc tấn công không mong muốn!&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Jan 2018 03:11:26 +0700</pubDate>
-        <link>http://localhost:4000/bao-mat-wordpress/</link>
-        <guid isPermaLink="true">http://localhost:4000/bao-mat-wordpress/</guid>
+        <link>https://nghi.blog/bao-mat-wordpress/</link>
+        <guid isPermaLink="true">https://nghi.blog/bao-mat-wordpress/</guid>
         
         <topic>bảo mật wordpress</topic>
         
@@ -287,8 +287,8 @@
 &lt;p&gt;Mặc dù thời gian phản hồi của máy chủ chỉ chiếm khoảng 10% tổng thời gian trễ trong việc hiển thị trang web cho người dùng, nhưng bạn nên xem xét và có hướng xử lý để giảm thời gian cần thiết cho máy chủ, với những yếu tố được liệt kê trên.&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Jan 2018 05:56:39 +0700</pubDate>
-        <link>http://localhost:4000/server-response-time/</link>
-        <guid isPermaLink="true">http://localhost:4000/server-response-time/</guid>
+        <link>https://nghi.blog/server-response-time/</link>
+        <guid isPermaLink="true">https://nghi.blog/server-response-time/</guid>
         
         <topic>page speed</topic>
         
@@ -398,8 +398,8 @@
 &lt;p&gt;Hãy chia sẽ nếu bạn thấy hữu ích, hoặc bổ sung thêm các dịch vụ hosting miễn phí cho static website mà bạn biết, bằng cách sử dụng comment bên dưới đây.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Jan 2018 08:01:44 +0700</pubDate>
-        <link>http://localhost:4000/hosting-cho-static-website/</link>
-        <guid isPermaLink="true">http://localhost:4000/hosting-cho-static-website/</guid>
+        <link>https://nghi.blog/hosting-cho-static-website/</link>
+        <guid isPermaLink="true">https://nghi.blog/hosting-cho-static-website/</guid>
         
         <topic>hosting miễn phí</topic>
         
@@ -496,8 +496,8 @@ $ git config --global user.email &quot;nghi.dcg@gmail.com&quot;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&quot;https://nghi.blog/&quot;&gt;Blog&lt;/a&gt; mình trước đây sử dụng Git trên VPS Linux tại &lt;a href=&quot;https://m.do.co/c/0da53dba0324&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DigitalOcean&lt;/a&gt;, cảm thấy khá hài lòng về tốc độ và sự ổn định.&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Jan 2018 08:55:19 +0700</pubDate>
-        <link>http://localhost:4000/git-tren-vps-linux/</link>
-        <guid isPermaLink="true">http://localhost:4000/git-tren-vps-linux/</guid>
+        <link>https://nghi.blog/git-tren-vps-linux/</link>
+        <guid isPermaLink="true">https://nghi.blog/git-tren-vps-linux/</guid>
         
         <topic>cài đặt git</topic>
         
