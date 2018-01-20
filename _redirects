@@ -1,3 +1,5 @@
 # Redirect domain aliases to primary domain
-http://nioempire.com/* http://nghi.blog/:splat 301!
-http://www.nioempire.com/* http://nghi.blog/:splat 301!
+https://nioempire.com/* https://nghi.blog/:splat 301!
+https://www.nioempire.com/* https://nghi.blog/:splat 301!
+http://nioempire.com/* https://nghi.blog/:splat 301!
+http://www.nioempire.com/* https://nghi.blog/:splat 301!
