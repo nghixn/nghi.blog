@@ -68,4 +68,5 @@ owner:
   telegram: #username
 
 include: ['_redirects']
-env: production
+plugins:
+    - jekyll-minifier
