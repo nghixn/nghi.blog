@@ -4,13 +4,16 @@
     <div class="row">
             <div class="col">
                 <h2 style="margin: 0">{{ project.name }}</h2>
+                <a href="{{ project.website }} " title="{{ project.name }}">
+                	<img class="project-image" src="{{ site.url }}/img/logos/{{ project.image }}" alt="{{ project.name }}" height="50" />
+                </a>
                 <p style="margin: 0">{{ project.descr }}</p>
 
                 {% if project.github %}
-                <a href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                <a href="{{ project.github }} "><span class="fa fa-fw fa-github"></span>GitHub</a>
                 {% endif %}
                 {% if project.website %}
-                <a href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
+                <a href="{{ project.website }} "><span class="fa fa-fw fa-home"></span>Homepage</a>
                 {% endif %}
 
             </div>

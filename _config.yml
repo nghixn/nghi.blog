@@ -3,22 +3,22 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email: zourenyuan@gmail.com
-description: A simple and awesome blog theme powered by jekyll.
-url: https://renyuanz.github.io/leonids # the base hostname & protocol for your site
-keywords: ["Programming", "PHP", "Ruby"]
+title: Nghi Nguyen
+email: nghi.dcg@gmail.com
+description: Xin chào! Đây là blog của Nghị. Blog cá nhân chia sẻ kiến thức, trải nghiệm và chuyện nghề nghiệp lĩnh vực công nghệ.
+url: https://nghi.blog # the base hostname & protocol for your site
+keywords: ["mobile app", "frontend", "web development"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Ho_Chi_Minh
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink:         /:title/
 
 kramdown:
   auto_ids: true
@@ -33,24 +33,24 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "PHP & Ruby Developer"
-  bio: "A backend developer who loves design awesome things. Working for RendezvousCheznous atm in Marseille, France."
-  email: zourenyuan@gmail.com
-  disqus-shortname: renyuanzblog
-  twitter: renyuan814 #username
-  facebook: #username
+  name: Nghi Nguyen
+  avatar: nghi-logo.png
+  job: "Co-founder Nepbean Technology, jotodi"
+  bio: "Xin chào! Đây là blog của Nghị.<br/>Nghị đang là một Team Leader \"culi\",  sống và làm việc tại TP. Hồ Chí Minh ...<br/><a href=\"/resume/\" title=\"Resume\">XEM CHI TIẾT</a>"
+  email: nghi.dcg@gmail.com
+  disqus-shortname: nghixn
+  twitter: nghixn #username
+  facebook: nghixn #username
   google:
     plus: #username
-    analytics: UA-62251910-2
+    analytics: UA-111732221-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: renyuanz #username
+  github: nghixn #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: renyuan-zou-69b7038a #username
+  linkedin: nghinx #username
   xing: #username
   instagram: #username
   lastfm: #username

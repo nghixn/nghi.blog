@@ -1,16 +1,31 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Google
-  link: http://www.google.com/
-  date: July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Programming Internship
+- name: Nepbean
+  link: https://nepbean.com/
+  date: 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Co-founder tại Nepbean, phát triển ứng dụng jotodi.
+  
+- name: Sutrix Solutions
+  link: http://sutrixgroup.com/
+  date: 2015 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Frontend Developer (6 tháng), Frontend Team Leader (hiện tại).
 
-- name: Facebook
-  link: http://www.facebook.com/
-  date: May 2014 - July 2017
-  job: Web Assistant
+- name: Vivicorp
+  link: https://nghi.blog
+  date: 2013 - 2015
+  job: Full-stack Developer sử dụng nền tảng Bitrix.
 
-- name: SAP
-  link: https://www.sap.com/
-  date: 2010 - 2014
-  job: Software Developer
+- name: TTG Training Center
+  link: https://nghi.blog
+  date: 2011 - 2013
+  job: Giảng viên các khóa học thiết kế đồ họa và lập trình website.
+  
+- name: Nhất Nghệ (TP. Hồ Chí Minh)
+  link: http://www.nhatnghe.com/
+  date: 2011
+  job: Trợ giảng các khóa học thiết kế đồ họa và lập trình website.
+  
+- name: Network Computer & Freelancer
+  link: httpsL//nghi.blog
+  date: 2010
+  job: Làm việc trong lĩnh vực mạng - máy tính và freelance sử dụng WordPress, Joomla.

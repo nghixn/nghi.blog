@@ -64,7 +64,7 @@ section.post {
   font-size: 13px;
   font-weight: bold;
 	.post-date {
-		color: $secondary;
+		color: #757575;
 	}
 	.post-author {
 		text-transform: uppercase;
@@ -72,7 +72,7 @@ section.post {
 	}
   .post-cat {
 		text-transform: uppercase;
-		color: $warning;
+		color: $primary;
 	}
   .read-time {
     color: $primary;

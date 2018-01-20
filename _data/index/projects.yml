@@ -1,4 +1,14 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+- name: Nepbean
+  descr: "Nepbean được thành lập năm 2017 với mục đích phát triển các sản phẩm công nghệ thông tin đáp ứng các nhu cầu thực tế."
+  image: nepbean.png
+  website: https://nepbean.com
+  
+- name: jotodi app
+  descr: "Là một sản phẩm của Nepbean, một ứng dụng mobile dành cho cộng cộng những người yêu thích du lịch."
+  image: jotodi.png
+  website: https://jotodi.com
+  
+- name: nghi.blog
+  descr: "Blog cá nhân chia sẻ kiến thức, trải nghiệm và chuyện nghề nghiệp lĩnh vực công nghệ thông tin."
+  image: nghi-blog.png
+  website: https://nghi.blog
