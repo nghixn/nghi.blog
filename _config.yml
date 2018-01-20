@@ -68,3 +68,4 @@ owner:
   telegram: #username
 
 include: ['_redirects']
+env: production
