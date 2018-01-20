@@ -1,0 +1,2 @@
+# Redirect domain aliases to primary domain
+http://nioempire.com/* http://nghi.blog/:splat 301!
