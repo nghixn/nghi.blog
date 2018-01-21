@@ -6,7 +6,7 @@
 title: Nghi's Blog - Nothing is OMG!
 email: nghi.dcg@gmail.com
 description: Xin chào! Đây là blog của Nghị. Blog cá nhân chia sẻ kiến thức, trải nghiệm và chuyện nghề nghiệp lĩnh vực công nghệ.
-#baseurl: https://nghi.blog
+baseurl: https://nghi.blog
 url: https://nghi.blog # the base hostname & protocol for your site
 keywords: ["mobile app", "frontend", "web development"]
 
