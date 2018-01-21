@@ -22,6 +22,9 @@
   padding: 0 30px;
   .avatar {
     float: none;
+    @include media-query($medium-screen) {
+    	margin-right: inherit	
+    }
   }
   .author_name {
     display: block;
@@ -44,6 +47,7 @@
   @include media-query($medium-screen) {
     margin: 0 auto;
     padding: 0 0px 80px;
+    text-align: right;
   }
 }
 .social-links {

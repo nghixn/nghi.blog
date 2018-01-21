@@ -12,11 +12,6 @@
 </script>
 <div class="social-links">
   <ul>
-    {% if author.email %}
-      <li>
-      <script>gen_mail_to_link('{{ author.email }}', 'Hello from website');</script>
-      </li>
-    {% endif %}
     {% if author.twitter %}<li><a href="http://twitter.com/{{ author.twitter }}" class="social-link-item" target="_blank"><span class="fa fa-fw fa-twitter"></span><span class="sr-only">{{ author.twitter }}</span></a></li>{% endif %}
     {% if author.facebook %}<li><a href="http://facebook.com/{{ author.facebook }}" class="social-link-item" target="_blank"><span class="fa fa-fw fa-facebook"></span><span class="sr-only">{{ author.facebook }}</span></a></li>{% endif %}
     {% if author.google.plus %}<li><a href="http://plus.google.com/+{{ author.google.plus }}" class="social-link-item" target="_blank"><span class="fa fa-fw fa-google-plus"></span> Google+</a></li>{% endif %}
@@ -37,5 +32,10 @@
     {% if author.flickr %}<li><a href="http://www.flickr.com/{{ author.flickr }}" class="social-link-item" target="_blank"><span class="fa fa-fw fa-flickr"></span></a></li>{% endif %}
     {% if author.codepen %}<li><a href="http://codepen.io/{{ author.codepen }}" class="social-link-item" target="_blank"><span class="fa fa-fw fa-codepen"></span></a></li>{% endif %}
     {% if author.telegram %}<li><a href="https://t.me/{{ author.telegram }}" class="social-link-item" target="_blank"><span class="fa fa-fw fa-telegram"></span></a></li>{% endif %}
+    {% if author.email %}
+      <li>
+      <script>gen_mail_to_link('{{ author.email }}', 'Hello from nghi.blog');</script>
+      </li>
+    {% endif %}
   </ul>
 </div>
