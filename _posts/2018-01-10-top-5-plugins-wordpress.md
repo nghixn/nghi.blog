@@ -21,7 +21,6 @@ Dưới đây là danh sách top 5 plugins WordPress phổ biến nhất.
 
 Chúng được sử dụng bởi hầu hết các website WordPress hiện nay, nếu không muốn nói là "phải có".
 
-&nbsp;
 <h2>Top 5 plugins WordPress tối thiểu cần phải có</h2>
 <h3><a title="WordPress SEO Plugin" href="https://wordpress.org/plugins/wordpress-seo/" target="_blank" rel="nofollow external noopener noreferrer" data-wpel-link="external">Yoast SEO</a></h3>
 Tên cũ là WordPress SEO by Yoast có mặt từ năm 2008.
@@ -42,7 +41,7 @@ Bao gồm Facebook, Twitter, Pinterest, Google, WhatsApp, LinkedIn, Tumblr, Redd
 
 Và hơn 100 trang web, ứng dụng mạng xã hội khác.
 <h3><a href="https://wordpress.org/plugins/jetpack/" target="_blank" rel="noopener" data-wpel-link="internal">JetPack</a></h3>
-JetPack là một plugin tập hợp nhiều tiện ích giúp <a href="https://nioempire.com/top-5-plugins-bao-mat-wordpress/">bảo vệ an toàn</a>, tăng lưu lượng và thu hút người đọc cho website của bạn.
+JetPack là một plugin tập hợp nhiều tiện ích giúp <a href="/bao-mat-wordpress/">bảo vệ an toàn</a>, tăng lưu lượng và thu hút người đọc cho website của bạn.
 <h2>Lời kết</h2>
 Trên đây chỉ là 5 trong số hàng nghìn plugins.
 

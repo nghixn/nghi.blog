@@ -30,11 +30,11 @@ Hai số liệu đó là <a href="https://developers.google.com/web/updates/2017
 
 Bạn đã sử dụng PageSpeed Insights để kiểm tra website mình chưa?
 <h2>Sử dụng PageSpeed Insights để đánh giá website</h2>
-Giống như bất kỳ công cụ nào khác của Google, PageSpeed Insights khá dễ sử dụng.
+Giống như bất kỳ công cụ nào khác của Google, <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noopener">PageSpeed Insights</a> khá dễ sử dụng.
 
 Chỉ cần nhập URL trang web của mình và PageSpeed Insights sẽ thực hiện phân tích.
 
-<img class="aligncenter size-full wp-image-3471" src="https://nioempire.com/wp-content/uploads/2018/01/pagespeed-insights-analyze.jpg" alt="PageSpee Insights Analyze" width="762" height="215" />
+<img src="/img/uploads/pagespeed-insights.jpg" alt="PageSpee Insights" width="801" height="464" />
 
 Kết quả phân tích sẽ hiển thị ngay bên dưới, sau khi PageSpeed Insights phân tích xong.
 
@@ -54,4 +54,4 @@ Tôi là người đã có nhiều kinh nghiệm trong việc tối ưu tốc đ
 
 Không chỉ với PageSpeed Insights mà còn tối ưu trên nhiều công cụ khác như: <a href="https://gtmetrix.com/" target="_blank" rel="noopener">GTmetrix</a>, <a href="https://www.webpagetest.org/" target="_blank" rel="noopener">WebPagetest</a>, <a href="https://tools.pingdom.com/" target="_blank" rel="noopener">Pingdom</a>, ...
 
-Bạn có thể <a href="https://nioempire.com/about/">liên hệ</a> với tôi để cùng chia sẻ kinh nghiệm!
+Bạn có thể <a href="mailto:nghi.dcg@gmail.com" title="Email">liên hệ</a> với tôi để cùng chia sẻ kinh nghiệm!

@@ -21,7 +21,6 @@ Server Response Time là một trong nhiều yếu tố ảnh hưởng đến SE
 
 Vậy thì:
 <h2>Làm thế nào giảm Server Response Time?</h2>
-&nbsp;
 
 Theo công cụ Google Page Speed, thì thời gian phản hồi của máy chủ lý tưởng là dưới 200ms (0.2s).
 
@@ -37,7 +36,7 @@ Ngày nay với rất nhiều nhà cung cấp uy tín và giá thành hợp lý,
 
 Một hosting chất lượng đồng nghĩa với các thông số rõ ràng và sự mạnh mẽ của CPU, RAM, tốc độ truy xuất, khả năng bảo mật, ...
 
-Cá nhân tôi đang sử dụng một gói Shared Hosting để lưu trữ các website giới thiệu công ty, không đòi hỏi về lưu lượng truy cập và một VPS phục vụ cho mục đích <a href="https://nioempire.com/topic/blogging/">viết blog</a>.
+Cá nhân tôi đang sử dụng một gói Shared Hosting để lưu trữ các website giới thiệu công ty, không đòi hỏi về lưu lượng truy cập và một VPS phục vụ cho mục đích <a href="https://nghi.blog/topic/#blogging">viết blog</a>.
 
 Bạn biết đấy, không vơ đũa cả nắm nhưng thực sự chất lượng Shared Hosting ở Việt Nam quá tệ, lỡ mua rồi thì sống chung với lũ thôi.
 

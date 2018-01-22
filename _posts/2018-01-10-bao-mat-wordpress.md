@@ -17,13 +17,13 @@ Có thể là phân quyền lại hệ thống file và thư mục trên hosting
 
 Bên cạnh đó, chúng ta cài đặt và cấu hình các plugin bảo mật WordPress.
 
-Dưới đây sẽ là danh sách <a href="https://nioempire.com/top-5-plugins-wordpress/">top 5 plugins</a> bảo mật WordPress phổ biến.
+Dưới đây sẽ là danh sách <a href="https://nghi.blog/top-5-plugins-wordpress/">top 5 plugins</a> bảo mật WordPress phổ biến.
 
 Bạn hãy trải nghiệm khả năng cung cấp sự bảo vệ cho trang web của mình từ các plugin này.
 
 Và mục đích cuối cùng là lựa chọn cho mình một plugin bảo mật WordPress ngon lành nhất.
 <h2>Top 5 plugins bảo mật WordPress</h2>
-<img class="aligncenter size-full wp-image-3334" src="https://nioempire.com/wp-content/uploads/2018/01/bao-mat-wordpress.jpeg" alt="Bảo mật WordPress" width="640" height="432" />
+<img src="/img/uploads/bao-mat-wordpress.jpeg" alt="Bảo mật WordPress" width="640" height="432" />
 <h3><a href="https://wordpress.org/plugins/wordfence/" target="_blank" rel="noopener">Wordfence</a></h3>
 Wordfence là plugin bảo mật WordPress phổ biến nhất hiện nay.
 

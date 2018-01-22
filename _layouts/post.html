@@ -42,20 +42,10 @@ layout: default
 
 <div class="share-buttons">
   <h6>Chia sẻ bài viết: </h6>
-  <ul>
-  	<li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook btn" title="Share on Facebook"><span class="fa fa-facebook"></span><span> Facebook</span></a>
-    </li>
-    <li>
-      <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="twitter btn" title="Share on Twitter"><span class="fa fa-twitter"></span><span> Twitter</span></a>
-    </li>
-    <li>
-      <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="google-plus btn" title="Share on Google Plus"><span class="fa fa-google-plus"></span><span> Google+</span></a>
-    </li>
-  </ul>
+	<div class="addthis_inline_share_toolbox"></div>
 </div><!-- end share-buttons -->
 
-{% if site.owner.disqus-shortname and page.comments == true %}
+{% if site.owner.disqus-shortname %}
 <div id="disqus_thread"></div>
 {% include disqus.html %}
 {% endif %}
